@@ -13,7 +13,7 @@ const Navbar = () => {
     <nav className="w-full bg-white shadow-md px-6 py-4">
       <div className="flex justify-between items-center max-w-7xl mx-auto">
         {/* Logo */}
-        <Link href="/" className="text-xl font-bold text-gray-800">
+        <Link href="/" className="text-xl font-bold text-gray-800 hover:text-blue-400 hover:animate-pulse transition duration-300">
           🚀 Vajranda Corp
         </Link>
 
