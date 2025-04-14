@@ -18,11 +18,11 @@ const Navbar = () => {
         </Link>
 
         {/* Desktop Menu */}
-        <div className="hidden md:flex space-x-6 text-gray-700 text-md font-medium">
-          <Link href="/">Home</Link>
-          <Link href="/about">About</Link>
-          <Link href="/contact">Contact Us</Link>
-          <Link href="/careers">Careers</Link>
+        <div className="hidden md:flex space-x-6 text-gray-700 text-md font-medium ">
+          <Link className='hover:text-blue-400' href="/">Home</Link>
+          <Link className='hover:text-blue-400' href="/about">About</Link>
+          <Link className='hover:text-blue-400'  href="/contact">Contact Us</Link>
+          <Link  className='hover:text-blue-400' href="/careers">Careers</Link>
         </div>
 
         {/* Mobile Menu Button */}

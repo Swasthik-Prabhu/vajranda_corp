@@ -24,7 +24,7 @@ export default function ContactPage() {
           type="text"
           name="name"
           placeholder="Your Name"
-          className="w-full px-4 py-2 border rounded-lg"
+          className="w-full px-4 py-2 border rounded-lg "
           value={formData.name}
           onChange={handleChange}
           required
